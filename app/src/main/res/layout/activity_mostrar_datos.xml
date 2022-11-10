@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".MostrarDatos">
+
+    <TextView
+
+        android:text="@string/tiulo2"
+        android:textSize="@dimen/tamaño_letra"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/espacio_top"
+        android:layout_below="@id/editCorreo"
+        android:background="@color/cardview_dark_background"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:drawablePadding="20dp"
+
+
+        />
+    <TextView
+        android:id="@+id/tvNombre"
+        android:text="@string/nombre"
+        android:textSize="@dimen/tamaño_letra_for"
+        android:layout_marginTop="@dimen/espacio_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editCorreo"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:drawablePadding="20dp"
+
+        />
+    <TextView
+        android:id="@+id/tvApellido"
+        android:text="@string/apellido"
+        android:textSize="@dimen/tamaño_letra_for"
+        android:layout_marginTop="@dimen/espacio_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:drawablePadding="20dp"
+
+        />
+    <TextView
+        android:id="@+id/tvEdad"
+        android:text="@string/edad"
+        android:textSize="@dimen/tamaño_letra_for"
+        android:layout_marginTop="@dimen/espacio_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editCorreo"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:drawablePadding="20dp"
+
+
+        />
+    <TextView
+        android:id="@+id/tvCorreo"
+        android:text="@string/correo"
+        android:textSize="@dimen/tamaño_letra_for"
+        android:layout_marginTop="@dimen/espacio_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editCorreo"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:drawablePadding="20dp"
+
+        />
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="218dp"
+        android:layout_height="68dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:text="Regresar"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:background="@drawable/borde_redondo"
+
+
+
+        />
+</LinearLayout>

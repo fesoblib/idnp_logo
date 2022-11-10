@@ -1,0 +1,33 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="50dp"
+    android:width="50dp"
+    android:viewportWidth="100.0"
+    android:viewportHeight="100.0">
+    <group
+        android:name="rotationGroup">
+        <path
+            android:name="vect"
+            android:fillColor="#f1ece8"
+            android:pathData="M 70 20
+            a 25 35 45 1 0 0 50
+            m 0 -70 z" />
+        <path
+            android:name="draw"
+            android:fillColor="#f1ece8"
+            android:pathData="M 70 20
+            a 25 35 45 0 1 0 50
+            m 0 -70 z"/>
+
+    </group>
+    <group
+        android:name="rotationGroup">
+        <path
+            android:name="t1"
+            android:fillColor="#f22d27"
+            android:pathData="M 55 40 l 40 15 v -30 l -40 15" />
+        <path
+            android:name="t2"
+            android:fillColor="#f22d27"
+            android:pathData="M 55 55 l -40 15 v -30 l 40 15"/>
+    </group>
+</vector>
